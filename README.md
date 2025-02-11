@@ -321,8 +321,3 @@ Build a Logs Dashboard
 
 ## 9. Conclusion
 This guide provides a step-by-step approach to setting up a MERN stack application with integrated log aggregation and visualization using Grafana and Loki. By following these steps, you can efficiently monitor your application's performance and troubleshoot issues in real time.
-
-## 10. License
-```bash
-This project is licensed under the MIT License - see the LICENSE file for details.
-```

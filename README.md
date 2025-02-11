@@ -38,7 +38,7 @@ cd application
    sudo touch .env # Created an environment file to store sensitive information such as the MongoDB URI and port number:
    nano .env
    #Pasted the below lines inside .env file
-   #MONGO_URI='mongodb+srv://adityavakharia:*********@cluster0.7powl.mongodb.net/Travel-Memory-DB'
+   #MONGO_URI='mongodb+srv://prasannak:*********@cluster0.7powl.mongodb.net/Travel-Memory-DB'
    #PORT=3001
    sudo apt install npm # Installed NPM and Dependencies and installed the necessary Node.js dependencies:
    npm install
@@ -128,9 +128,6 @@ To change the port (e.g., to 5000):
    sudo systemctl restart grafana-server
    ```
 
-   ![Alt Text](/images/prom-3-grafana-status.JPG)
-
-
   ![Alt Text](/images/prom-3-grafana-login-page.JPG)
 
   ![Alt Text](/images/prom-4-grafana-inside.JPG)
@@ -177,8 +174,6 @@ Start Loki using the following command:
 ```bash
 ./loki-linux-amd64 -config.file=loki-config.yaml
 ```
-
- ![Alt Text](/images/prom-loki-installation.JPG)
 
 ## 5. Install Prometheus on Your EC2
 
@@ -331,24 +326,3 @@ This guide provides a step-by-step approach to setting up a MERN stack applicati
 ```bash
 This project is licensed under the MIT License - see the LICENSE file for details.
 ```
-
-## 11. Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with clear messages.
-4. Submit a pull request for review.
-
-Make sure to follow the code style guidelines and include proper documentation for any new features.
-
-
-## 12 . Contact
-
-For any queries, feel free to contact me:
-
-- **Email:** adityavakharia@gmail.com
-- **GitHub:** [Aditya-rgb](https://github.com/Aditya-rgb/Monitoring)
-
-You can also open an issue in the repository for questions or suggestions.
